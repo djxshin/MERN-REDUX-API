@@ -7,7 +7,8 @@ const config = require('config');
 const {
     check,
     validationResult
-} = require('express-validator/check');
+} = require('express-validator');
+// express-validator/check?
 
 
 const User = require("../../models/User")
